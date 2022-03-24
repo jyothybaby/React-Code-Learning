@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ListItem from './list/ListItem.js'
+
+
 
 ReactDOM.render(
   <div className="app">
@@ -21,15 +24,8 @@ ReactDOM.render(
           <div className="list-title">
             <h4>Title One</h4>
           </div>
-          <div className="list-descr">
-            This is a very big description
-          </div>
-          <div className="kist-label">
-            <span>Label1</span>
-            <span>Label2</span>
-            <span>Label3</span>
-            <span>Label4</span>
-          </div>
+          <ListItem />
+          
           <hr />
         </div>
 
@@ -38,15 +34,9 @@ ReactDOM.render(
           <div className="list-title">
             <h4>Title Two</h4>
           </div>
-          <div className="list-descr">
-            This is a very big description
-          </div>
-          <div className="kist-label">
-            <span>Label1</span>
-            <span>Label2</span>
-            <span>Label3</span>
-            <span>Label4</span>
-          </div>
+
+          <ListItem />
+                   
           <hr />
         </div>
 
@@ -55,15 +45,8 @@ ReactDOM.render(
           <div className="list-title">
             <h4>Title Three</h4>
           </div>
-          <div className="list-descr">
-            This is a very big description
-          </div>
-          <div className="kist-label">
-            <span>Label1</span>
-            <span>Label2</span>
-            <span>Label3</span>
-            <span>Label4</span>
-          </div>
+          <ListItem />
+          
           <hr />
         </div>
 

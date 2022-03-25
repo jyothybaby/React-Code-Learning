@@ -4,19 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ListItem from './list/ListItem.js'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
+
 
 
 
 ReactDOM.render(
   <div className="app">
-    <div className="app-header">
-      <span className='header-title'>Code Malayalam learning</span>
-      <span>Home</span>
-      <span>Usage</span>
-      <span>Settings</span>
-      <span>Logout</span>
-
-    </div>
+    <Header />
     <div className="app-body">
       <div className="app-list">
         <div className='list-item'>
@@ -53,9 +50,7 @@ ReactDOM.render(
       </div>
 
     </div>
-    <div className="app-footer">
-      Copyright learning CodeMalayalam.in. All Right Reserved
-    </div>
+    <Footer />
 
 
   </div>,

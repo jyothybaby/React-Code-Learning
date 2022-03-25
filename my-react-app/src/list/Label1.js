@@ -1,8 +1,10 @@
 import React, {Component}from 'react';
 
+import './Label.css'
+
 class Label1 extends Component {
     render() {
-        return  <span>Label1 via Class  </span>
+        return  <span className="label1">Label1 via Class  </span>
     }
 }
 
